@@ -25,12 +25,14 @@ Register allocation plays a critical role in optimizing the performance of compi
 To get started with this project, clone the repository to your local machine:
 ```bash
 git clone git@github.com:MustcodeQ/Efficient-Register-Allocation-with-Graph-Coloring-and-Spill-Handling.git
-Dependencies
+
+## Dependencies
+
 Ensure you have the following dependencies installed:
 
 C++ Compiler (e.g., g++, clang++)
 CMake (for building the project)
-Usage
+## Usage
 After cloning the repository, follow these steps to compile and run the project:
 
 Navigate to the project directory:
@@ -52,16 +54,16 @@ bash
 Copy code
 ./register_allocation
 Algorithm Explanation
-This project employs a graph-based approach for register allocation:
+## This project employs a graph-based approach for register allocation:
 
 Each variable is represented as a node in a graph.
 An edge is created between two nodes if their corresponding variables are in conflict and must be placed in different registers.
 Graph coloring algorithms are used to assign colors (registers) to nodes, ensuring that conflicting nodes receive different colors.
 Spill handling techniques are used when there are more variables than available registers, where the excess variables are spilled to memory.
-Contributions
+## Contributions
 Contributions are welcome! If you'd like to contribute to the development of this project, feel free to open an issue or submit a pull request.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 You can copy the entire text above into your `README.md` file on GitHub. This will provide all the necessary details about your project, making it clear for anyone who views the repository.
