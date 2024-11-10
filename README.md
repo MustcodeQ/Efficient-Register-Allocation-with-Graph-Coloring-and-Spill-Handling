@@ -6,10 +6,7 @@ This project focuses on efficient register allocation using graph coloring and s
 - [Overview](#overview)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Algorithm Explanation](#algorithm-explanation)
-- [Contributions](#contributions)
-- [License](#license)
+
 
 ## Overview
 Register allocation plays a critical role in optimizing the performance of compiled programs. The project uses graph coloring and spill handling to achieve efficient register allocation, reducing the use of memory and improving the execution of generated code. This approach is widely applicable in compilers and low-level code optimization.
